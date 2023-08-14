@@ -19,24 +19,24 @@ Table of Contents:
 
 2. Setup:
 
-	1. Generate project in Spring initializer with following dependencies:
+	I. Generate project in Spring initializer with following dependencies:
 		--> Spring Web
 		--> Spring Security
 		--> MYSQL Driver
 		--> JWT
 
-	11. Clone this repository to your local machine.
+	II. Clone this repository to your local machine.
 
-	111. Open the extracted file in your preferred IDE.
+	III. Open the extracted file in your preferred IDE.
 
-	1V. Run the application:
+	IV. Run the application:
 		The application should now be running at http://localhost:8080.
 
 3. Usage:
 
 	You can use tools like Postman or CURL to interact with the API endpoints. Below are some example API requests:
 
-	1. Register a User:
+	I. Register a User:
 
 	POST /register
 	Content-Type: application/json
@@ -47,7 +47,7 @@ Table of Contents:
 		    "email"	      : "emailid@google.com"
 		}
 
-	11. Authenticate and Get JWT Token:
+	II. Authenticate and Get JWT Token:
 
 	POST /authenticate
 	Content-Type: application/json
@@ -57,7 +57,7 @@ Table of Contents:
 		    "password": "password123"
 		}
 
-	111. Access Secured Endpoint
+	III. Access Secured Endpoint
 
 	Authorization: Bearer <YOUR_JWT_TOKEN>
 	
